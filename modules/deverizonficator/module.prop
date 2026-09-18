@@ -1,0 +1,6 @@
+id=deverizonficator
+name=DeVerizonficator
+version=v1.0
+versionCode=1
+author=Hacktimepixel
+description=Unlocks non-Verizon SIMs on Verizon Pixel 6a SKUs: clears the FCM-provisioned carrier-restriction profile cached by com.google.android.apps.work.oobconfig so SimLockTask falls back to all-carriers-allowed at every boot. Validated live: CARDSTATE_RESTRICTED -> CARDSTATE_PRESENT.

@@ -1,0 +1,6 @@
+id=noota
+name=NoOTA (block system updates)
+version=v1.0
+versionCode=1
+author=Hacktimepixel
+description=Hard-blocks automatic system OTA updates on Pixel: disables GMS update components (SystemUpdateService/Listener/GcmTaskService/Activities), sets ota_disable_automatic_update=1, stops update_engine at each boot. Fully reversible: uninstall.sh re-enables everything from state file. Mainline/Play system updates unaffected.
