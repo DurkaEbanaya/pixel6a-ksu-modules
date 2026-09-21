@@ -1,6 +1,6 @@
 id=deverizonficator
 name=DeVerizonficator
-version=v1.1
-versionCode=2
+version=v1.2
+versionCode=3
 author=Hacktimepixel
-description=Unlocks non-Verizon SIMs on Verizon Pixel 6a SKUs: strips the FCM simlock profile AND topic subscription from oobconfig prefs, kills the process holding the config in memory, then sets modem-side CarrierRestrictionRules to all-carriers-allowed via ITelephony (Rac.dex). Watcher re-applies on any re-restriction. Validated live: CARD_RESTRICTED -> LOADED.
+description=Unlocks non-Verizon SIMs on Verizon Pixel 6a SKUs: strips the FCM simlock profile AND topic subscription from oobconfig prefs, kills the process holding the config in memory, then sets modem-side CarrierRestrictionRules to all-carriers-allowed via ITelephony (Rac.dex v2, verified readback). Singleton watcher re-applies on re-restriction or re-provisioning. Validated live: CARD_RESTRICTED -> LOADED.
